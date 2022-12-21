@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H2>Welcome to Simple Bank where we make bank simple</H2>
+    <fieldset>
+        <legend>Account Info</legend>
+        <table>
+            <tr>
+                <td rowspan="2">Name</td>
+                <td rowspan="2"><input type="text"></td>
+                <td> Account Type :</td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="saving" name=""> Saving</td>
+                <td><input type="radio" id="checking" name="">Checking</td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>Transactions</legend>
+        <table>
+            <tr>
+                <td>Amount:</td>
+            <td><input type="text"></td>
+            <td>Transfer From</td>
+            <td>
+            <select name="" id="" style="width: 80px;">
+                <option value=""></option>
+            </select>
+            </td>
+            <td>Transfer To</td>
+            <td>
+            <select name="" id="" style="width: 80px;">
+                <option value=""></option>
+            </select>
+            </td>
+            <td></td>
+            <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Deposit">
+                </td> 
+                <td>
+                    <input type="submit" value="Withdraw">
+                </td>
+                <td>
+                    <input type="submit" value="Transfer">
+                </td>
+                <td>
+                    <input type="submit" value="Wiew Transactions">
+                </td>
+            </tr>
+        </fieldset>
+        </table>
+    <fieldset>  
+        <legend>Wiew Transactions</legend>
+        <Td>Name: testuser</Td><br>
+        <td>Account Saving</td><br>
+        <td>Initial Balance</td>
+        <table border="1">
+            <thead>
+                <td style="width: 300px;">Description</td>
+                <td style="width: 300px;">Amount</td>
+                <TD style="width: 300px;">Balance</TD>
+            </thead>
+            <tbody> 
+                <tr>
+                    <td>Transfer</td>
+                    <td>$-500.00</td>
+                    <td>$500.00</td>
+                </tr>
+                <tr>
+                    <td>Withdraw</td>
+                    <td>$-23.33</td>
+                    <td>$476.67</td>
+                </tr>
+                <tr>
+                    <td>Deposit</td>
+                    <td>$102.20</td>
+                    <td>$578.87</td>
+                </tr>
+                <tr>
+                    <td>Transfer From Checking</td>
+                    <td>$-234.00</td>
+                    <td>$812.87</td>
+                </tr>
+            </tbody>
+       </table>
+    </fieldset>
+</body>
+</html>
